@@ -1,0 +1,38 @@
+{
+  "name": "autorescue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.8",
+    "@tailwindcss/vite": "^4.3.3",
+    "express": "^5.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-spinners": "^0.17.1",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "daisyui": "^5.7.47",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.6",
+    "globals": "^17.12.0",
+    "vite": "^8.3.0"
+  },
+  "description": "AutoRescue is a location-based automotive assistance platform that helps users find nearby car and motorcycle repair garages during emergencies. It integrates Google Maps to display nearby service centers with their distance, address, contact information, and directions, providing a simple and responsive way to quickly find roadside assistance. ### Tools Used     1. ReactJs     2. GoogleApi     3. Tailwind",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
